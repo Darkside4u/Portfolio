@@ -1,0 +1,105 @@
+/* Custom Styles for Bootstrap Portfolio */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #111827;
+    color: #E5E7EB;
+    position: relative;
+}
+
+/* --- Navigation --- */
+.navbar {
+    background: rgba(17, 24, 39, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #E5E7EB;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #38bdf8; /* Light Blue */
+}
+
+/* --- Sections --- */
+.section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- Home Section --- */
+#home .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #38bdf8;
+}
+
+#home .social-icons a {
+    color: #E5E7EB;
+    font-size: 1.75rem;
+    transition: color 0.3s ease;
+}
+
+#home .social-icons a:hover {
+    color: #38bdf8;
+}
+
+/* --- About Section --- */
+.skill-card, .education-card, .cert-card {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    height: 100%;
+    /* Added transition for the hover effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* NEW: Hover effect for skill cards */
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 0 15px rgba(56, 189, 248, 0.3); /* A subtle shadow and a blue glow */
+}
+
+
+.skill-card h3, .education-card h3, .cert-card h3 {
+    color: #38bdf8;
+}
+
+/* --- Projects Section --- */
+.project-card {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.project-card .card-body a {
+    text-decoration: none;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #1f2937;
+    padding: 2rem 0;
+}
