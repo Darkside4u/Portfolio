@@ -1,7 +1,7 @@
 Personal Portfolio Website - Divy Thumber
 This repository contains the source code for my personal portfolio website. It is a fully responsive, single-page application designed to showcase my skills, projects, and professional background as a web developer. The site is built with a mobile-first approach using modern web technologies.
 
-Live Demo: https://your-username.github.io/your-repo-name/
+Live Demo: https://divythumber.netlify.app/
 
 <img width="1920" height="4857" alt="screencapture-127-0-0-1-5500-index-html-2025-07-19-23_32_32" src="https://github.com/user-attachments/assets/a141cda2-77a2-4500-85fa-8ac423928434" />
 
