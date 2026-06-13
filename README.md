@@ -1,11 +1,13 @@
 Personal Portfolio Website - Divy Thumber
-This repository contains the source code for my personal portfolio website. It is a fully responsive, single-page application designed to showcase my skills, projects, and professional background as a web developer. The site is built with a mobile-first approach using modern web technologies.
+
+This repository contains the source code for my personal portfolio website. It is a fully responsive, single-page application designed to showcase my skills, projects, and professional background as a Backend & AI/ML Engineer. The site is built with a mobile-first approach using modern web technologies.
 
 Live Demo: https://divythumber.netlify.app/
 
 <img width="1920" height="4857" alt="screencapture-127-0-0-1-5500-index-html-2025-07-19-23_32_32" src="https://github.com/user-attachments/assets/a141cda2-77a2-4500-85fa-8ac423928434" />
 
 Features
+
 Fully Responsive Design: Looks great on all devices, from mobile phones to desktop computers.
 
 Single-Page Layout: Smooth, seamless navigation between sections without page reloads.
@@ -20,15 +22,18 @@ Structured Sections: Includes dedicated sections for:
 
 Home: A welcoming introduction with social links.
 
-About Me: A summary of my profile, including technical and soft skills.
+About Me: A summary of my profile, including technical skills grouped by category (AI & LLMs, Backend, Frontend, Blockchain, Tools) and soft skills.
 
-Projects: A showcase of my key projects with links to live demos and source code.
+Projects: A showcase of key projects including the featured Healthcare AI — Clinical Decision Support Platform, Plantify Hub, Personal Portfolio, and Ethereum/Linea Token Rescue Bot.
 
-Education & Certifications: An overview of my academic and professional qualifications.
+Experience: Professional work history, currently featuring the Backend & AI/ML Engineer role at a Healthcare AI Startup.
+
+Education & Certifications: An overview of academic and professional qualifications including Claude API Integration and Blockchain Automation certifications.
 
 Contact: A clear call-to-action to get in touch.
 
 Technologies Used
+
 This project was built using the following technologies:
 
 HTML5: For the structure and content of the website.
@@ -43,7 +48,12 @@ Bootstrap Icons: For clean and scalable icons used throughout the site.
 
 Google Fonts: For modern and readable typography (Inter font family).
 
+About the Owner
+
+Divy Thumber is a Backend & AI/ML Engineer co-building a fully autonomous + human-in-the-loop clinical decision support platform for the Healthcare B2B sector, based in Gandhinagar, Gujarat, India. The core backend is built on Java/Spring Boot, with Spring AI as the framework for integrating LLMs — Claude API (Anthropic) and Gemini SDK — into clinical reasoning workflows. His stack also spans Python/Django, React.js, and blockchain automation with Solidity + Ethers.js.
+
 Setup and Installation
+
 To run this project locally on your machine, follow these simple steps:
 
 Clone the repository:
@@ -60,6 +70,7 @@ You can simply double-click the index.html file, or right-click and choose "Open
 And that's it! The website should be running locally.
 
 Contact
+
 Feel free to connect with me!
 
 LinkedIn: https://www.linkedin.com/in/divy-thumbar/
@@ -67,4 +78,5 @@ LinkedIn: https://www.linkedin.com/in/divy-thumbar/
 GitHub: https://github.com/Darkside4u
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
